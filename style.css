@@ -1,0 +1,41 @@
+body {
+    background: #00A4B4;
+    color: #4E3145;
+    font-family: 'Vollkorn', serif;;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+#general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: #DE5285;
+    color: white;
+    font-size: 60px;
+    border-radius: 8px;;
+}
+button:hover{
+    background: #133951;
+    color: #DE5285;
+}
+
+#result {
+    padding: 50px;
+    font-size: 40px;
+}
+
